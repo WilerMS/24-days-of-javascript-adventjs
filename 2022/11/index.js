@@ -6,8 +6,7 @@ function getCompleted(part, total) {
   const totalSeconds = totalArr[0] * 3600 + totalArr[1] * 60 + totalArr[2]
   
   let [mcd, totalPart] = [partSeconds, totalSeconds]
-  while (totalPart !== 0) 
-    [mcd, totalPart] = [totalPart, mcd % totalPart]
+  while (totalPart !== 0) [mcd, totalPart] = [totalPart, mcd % totalPart]
   
   return (totalSeconds % partSeconds === 0)
     ? `1/${totalSeconds/partSeconds}`

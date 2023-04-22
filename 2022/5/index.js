@@ -22,7 +22,7 @@ function _getMaxGifts(giftsCities, maxGifts, maxCities) {
     .reduce((combinations, item) => {
        return combinations.concat(combinations.map(c => [...c, item]))
      }, [[]])
-    .reduce((prev, mix, index, self) => {
+    .reduce((prev, mix) => {
       const total = mix.reduce((a, b) => a + b, 0)
       return (mix.length <= maxCities && total >= prev && total <= maxGifts)
         ? total

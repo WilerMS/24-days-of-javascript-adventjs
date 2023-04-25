@@ -12,3 +12,7 @@ function getCompleted(part, total) {
     ? `1/${totalSeconds/partSeconds}`
     : `${partSeconds/mcd}/${totalSeconds/mcd}`
 }
+
+module.exports = {
+  getCompleted
+}

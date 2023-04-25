@@ -1,4 +1,4 @@
-export function countTime(leds) {
+function countTime(leds) {
   let times = 0
   while (true) {
     if (leds.every( led => led === 1)) break
@@ -6,4 +6,8 @@ export function countTime(leds) {
     times += 7
   }
   return times
+}
+
+module.exports = {
+  countTime
 }

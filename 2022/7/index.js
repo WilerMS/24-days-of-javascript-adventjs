@@ -4,3 +4,7 @@ function getGiftsToRefill(a1, a2, a3) {
   const c = a3.filter(gift => !(a1.includes(gift) || a2.includes(gift)))
   return [...new Set(a.concat(b, c))]
 }
+
+module.exports = {
+  getGiftsToRefill
+}

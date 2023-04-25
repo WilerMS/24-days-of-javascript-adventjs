@@ -1,4 +1,4 @@
-export function createCube(size) {
+function createCube(size) {
 
   let cube = []
   const arr = [...Array(size)]
@@ -21,4 +21,8 @@ export function createCube(size) {
   })
 
   return cube.join('')
+}
+
+module.exports = {
+  createCube
 }

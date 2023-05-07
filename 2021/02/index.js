@@ -1,4 +1,4 @@
-function listGifts(letter) {
+function listGifts (letter) {
   return letter
     .split(' ')
     .filter(Boolean)

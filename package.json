@@ -10,7 +10,8 @@
     "test:coverage": "jest --coverage"
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "standard": "^17.0.0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/WilerMS/24-days-of-javascript-adventjs/issues"
   },
-  "homepage": "https://github.com/WilerMS/24-days-of-javascript-adventjs#readme"
+  "homepage": "https://github.com/WilerMS/24-days-of-javascript-adventjs#readme",
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }

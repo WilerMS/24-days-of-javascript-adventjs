@@ -2,7 +2,7 @@ Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz 
 
 Por ejemplo, si tenemos las ovejas:
 
-```js
+```js     
 const ovejas = [
   { name: 'Noa', color: 'azul' },
   { name: 'Euge', color: 'rojo' },

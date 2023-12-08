@@ -8,7 +8,18 @@ function manufacture2(gifts, materials) {
   })
 }
 
+function manufacture3(gifts, materials) {
+  return gifts.filter(gift => {
+    const x = [...new Set(...[gift + materials])]
+
+    return x.length == materials.length
+  })
+}
+
 module.exports = {
   manufacture,
-  manufacture2
+  manufacture2,
+  manufacture3,
 }
+
+

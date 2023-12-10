@@ -1,4 +1,4 @@
-const decode = require('./index.js') 
+const { decode } = require('./index.js') 
 
 describe('decode function tests', () => {
 

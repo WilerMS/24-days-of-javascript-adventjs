@@ -1,4 +1,4 @@
-const maxDistance = require('./index.js') 
+const { maxDistance } = require('./index.js') 
 
 describe('maxDistance function tests', () => {
   test('should return 2 for movements ">>*<"', () => {

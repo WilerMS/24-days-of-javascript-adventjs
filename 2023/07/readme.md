@@ -7,6 +7,7 @@ Tu tarea es escribir una función que, dado un tamaño n (entero), **genere un d
 Las líneas de los regalos se dibujan con # y las caras con el símbolo que nos pasan como parámetro:
 
 ```js
+
 drawGift(4, '+')
 /*
    ####

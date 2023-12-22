@@ -20,3 +20,7 @@ function checkIsValidCopy(original, copy) {
     return degradations[key].includes(copy[i])
   })
 }
+
+module.exports = {
+  checkIsValidCopy
+}

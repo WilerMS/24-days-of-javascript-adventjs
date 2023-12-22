@@ -15,3 +15,7 @@ function calculateTime(deliveries) {
 
   return `${sign}${hours}:${mins}:${secs}`
 }
+
+module.exports = {
+  calculateTime
+}

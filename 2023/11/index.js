@@ -19,3 +19,7 @@ function getIndexsForPalindrome(word) {
   return null
 }
 
+module.exports = {
+  getIndexsForPalindrome
+}
+
